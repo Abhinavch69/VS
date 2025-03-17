@@ -10,7 +10,7 @@ public class subset {
       System.out.println(list);
     }
   }
-
+  
   static List<List<Integer>> Subset(int[] arr){
     List<List<Integer>> outer=new ArrayList<>();
 
