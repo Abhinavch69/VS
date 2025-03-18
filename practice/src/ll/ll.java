@@ -1,5 +1,3 @@
-import java.lang.classfile.components.ClassPrinter.ListNode;
-
 public class ll {
 
   private Node head;
