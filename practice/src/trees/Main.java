@@ -19,6 +19,6 @@ public class Main {
       tree.insert(i);
     }
 
-    System.out.println(tree.height());
+    //System.out.println(tree.height());
   }
 }
