@@ -43,7 +43,7 @@ package trees;
       }
   }
   
-  public class symmetricTree {  // Class name corrected to PascalCase
+  public class symmetricTree {
       public static void main(String[] args) {
           Solution solution = new Solution();
   
