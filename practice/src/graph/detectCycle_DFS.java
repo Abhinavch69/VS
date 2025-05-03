@@ -1,12 +1,6 @@
 package graph;
 import java.util.*;
 
-class Pair{
-  int first,second;
-  public Pair(int f,int s){
-    first=f;second=s;
-  }
-}
 public class detectCycle_DFS {
 
   public boolean checkForCycle(int node,int parent,List<List<Integer>> adj,boolean[] vis){
