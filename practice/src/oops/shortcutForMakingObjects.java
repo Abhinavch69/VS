@@ -2,7 +2,7 @@ package oops;
 import java.util.*;
 
 record Flower(String flower,int petals, float price){}
-public class oops{
+public class shortcutForMakingObjects{
   public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
     Flower[] fl=new Flower[5];

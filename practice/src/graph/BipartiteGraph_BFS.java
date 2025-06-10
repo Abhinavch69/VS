@@ -2,7 +2,7 @@
 
 package graph;
 import java.util.*;
-public class BipartiteGraph {
+public class BipartiteGraph_BFS {
   private boolean check(int start,int V,List<List<Integer>> adj,int[] color){
     Queue<Integer> q=new LinkedList<>();
     q.add(start);
@@ -13,7 +13,7 @@ public class BipartiteGraph {
 
       for(Integer it:adj.get(node)){
 
-        //if the adjacent node is yet no colored
+        //if the adjacent node is yet not colored
         //you will give the opposite color of the node
         if(color[it]==-1){
           q.add(it);
