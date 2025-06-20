@@ -2,7 +2,7 @@
 
 package graph;
 import java.util.*;
-public class eventualSafeState {
+public class eventualSafeState_DFS {
   private boolean dfsCheck(int node,List<List<Integer>> adj,int vis[],int pathVis[],int check[]){
     vis[node]=1;
     pathVis[node]=1;
@@ -13,6 +13,9 @@ public class eventualSafeState {
         if(dfsCheck(it, adj, vis, pathVis, check)==true) 
         return true;
       }
+
+      //if the node has been previously visited
+      //but it has to be visited on same path
       else if(pathVis[it]==1){
         return true;
       }

@@ -3,7 +3,7 @@
 
 package graph;
 import java.util.*;
-public class detectCycle_in_DG {
+public class detectCycle_in_DG_DFS {
   private static boolean dfsCheck(int node, List<List<Integer>> adj,int vis[], int pathVis[]){
     vis[node]=1;
     pathVis[node]=1;
