@@ -1,7 +1,7 @@
 package graph;
 import java.util.*;
 public class shortestPath_UG {
-  public int[] shorstestPath(int[][] edges,int n,int m,int src){
+  public int[] shorstestPath_UG(int[][] edges,int n,int m,int src){
     List<List<Integer>> adj=new ArrayList<>();
     for(int i=0;i<n;i++){
       adj.add(new ArrayList<>());
@@ -29,7 +29,7 @@ public class shortestPath_UG {
           dist[i]=-1;
         }
       }
-      return dist;
     }
+      return dist;
   }
 }
