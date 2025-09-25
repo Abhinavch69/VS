@@ -1,6 +1,7 @@
-package graph;
+//Undirected Graph
+
 import java.util.*;
-public class detectCycle_BFS {
+public class $7detectCycle_BFS {
 
   class Pair{
     int first,second;

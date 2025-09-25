@@ -1,7 +1,4 @@
 //minimum number of edges to require to coonect different components of a graph
-
-
-package graph;
 import java.util.*;
 public class connectingTheGraph {
   public int solve(int n,int[][] edge){

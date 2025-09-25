@@ -2,9 +2,6 @@
 //helps to detect negative cycle as well
 //using something that is pre computed
 //if the costing to travel from a node to the node itself is less than zero then we can say it's a negative cycle
-
-
-package graph;
 import java.util.*;
 public class floydWarshall_Algo {
   public void shortest_distance(int[][] matrix){

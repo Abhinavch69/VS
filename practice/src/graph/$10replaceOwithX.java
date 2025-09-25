@@ -1,8 +1,8 @@
 //DFS
 
-package graph;
+
 import java.util.*;
-public class replaceOwithX {
+public class $10replaceOwithX {
 
   static void dfs(int row,int col, int vis[][],char mat[][],int[] delRow,int[] delCol){
     vis[row][col]=1;

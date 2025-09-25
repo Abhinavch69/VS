@@ -1,4 +1,3 @@
-package graph;
 import java.util.*;
 
 class Pair{
@@ -9,7 +8,7 @@ class Pair{
     row=r;col=c;tm=t;
   }
 }
-public class rottenOranges {
+public class $6rottenOranges {
   public int rotOrangeTime(int[][] grid){
     int n=grid.length;
     int m=grid[0].length;

@@ -1,7 +1,5 @@
 //dijkstra algorithm with priority queue
 //inside PQ jb destination aajaye usa mtlb hume minimum distance mil gayi h
-
-package graph;
 import java.util.*;
 class tuple{
   int distance,row,col;

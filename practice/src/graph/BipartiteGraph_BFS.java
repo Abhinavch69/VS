@@ -1,6 +1,4 @@
 //BFS
-
-package graph;
 import java.util.*;
 public class BipartiteGraph_BFS {
   private boolean check(int start,int V,List<List<Integer>> adj,int[] color){

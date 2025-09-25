@@ -1,7 +1,5 @@
 //DFS
 //on the same path node has to visited again
-
-package graph;
 import java.util.*;
 public class detectCycle_in_DG_DFS {
   private static boolean dfsCheck(int node, List<List<Integer>> adj,int vis[], int pathVis[]){

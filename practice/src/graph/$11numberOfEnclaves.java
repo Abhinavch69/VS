@@ -1,6 +1,4 @@
 //BFS
-
-package graph;
 import java.util.*;
 
 class Pair{
@@ -9,7 +7,7 @@ class Pair{
     row=r;col=c;
   }
 }
-public class numberOfEnclaves {
+public class $11numberOfEnclaves {
   public int noOfEnclaves(int[][] grid){
     Queue<Pair> q=new LinkedList<>();
     int n=grid.length;

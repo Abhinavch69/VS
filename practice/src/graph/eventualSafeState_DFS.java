@@ -1,6 +1,4 @@
 //dfs
-
-package graph;
 import java.util.*;
 public class eventualSafeState_DFS {
   private boolean dfsCheck(int node,List<List<Integer>> adj,int vis[],int pathVis[],int check[]){

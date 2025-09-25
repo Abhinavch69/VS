@@ -13,7 +13,7 @@
 //if at Nth iteration the distance array is still updating(means decreasing)
 //it means there is a negative cycle
 
-package graph;
+
 import java.util.*;
 public class bellmanFord_Algo {
   static int[] bellman_ford(int V,List<List<Integer>> edges,int S){

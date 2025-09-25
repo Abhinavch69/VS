@@ -1,8 +1,5 @@
 //find MST
 //disjoint set
-//
-
-package graph;
 import java.util.*;
 class Edge implements Comparable<Edge>{
   int src,dest,weight;

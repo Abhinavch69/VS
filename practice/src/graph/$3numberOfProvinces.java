@@ -1,9 +1,7 @@
 //In this question we will be provided with adjacency matrix
 //we have to convert it into adjacency list
-
-package graph;
 import java.util.*;
-public class numberOfProvinces {
+public class $3numberOfProvinces {
 
     public static void dfs(int node,List<List<Integer>> adjLs,int[] vis){
       vis[node]=1;

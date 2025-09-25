@@ -1,7 +1,5 @@
 //kind of a online query question
 //formula(row,col) = (row*m)+col
-
-package graph;
 import java.util.*;
 public class numberOfIsland_DisjointSet {
   private boolean isValid(int adjr,int adjc,int n,int m){

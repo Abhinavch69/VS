@@ -1,6 +1,5 @@
-package graph;
 import java.util.*;
-public class floodFillAlgo {
+public class $5floodFillAlgo {
   
   private void dfs(int row,int col, int[][] ans,int[][] image,int newColor, int[] delRow,int[] delCol,int iniColor){
     ans[row][col]=newColor;

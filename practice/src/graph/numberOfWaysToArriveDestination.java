@@ -1,8 +1,6 @@
 //number of paths which are shortest
 //dijkstra with PQ
 //{dist,node}
-
-package graph;
 import java.util.*;
 class Pair{
   int first,second;

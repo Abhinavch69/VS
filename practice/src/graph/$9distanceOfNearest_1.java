@@ -1,4 +1,3 @@
-package graph;
 import java.util.*;
 class Node{
   int first,second,third;
@@ -6,7 +5,7 @@ class Node{
     first=f;second=s;third=t;
   }
 }
-public class distanceOfNearest_1 {
+public class $9distanceOfNearest_1 {
   public int[][] nearest(int[][] grid){
     int n=grid.length;
     int m=grid[0].length;

@@ -1,4 +1,3 @@
-package graph;
 import java.util.*;
 public class cityWithSmallestNumberOfNeighborsAt_a_ThreshholdDistance {
   int findCity(int n,int m,int edges[][],int distanceThreshold){

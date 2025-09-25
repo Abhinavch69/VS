@@ -1,7 +1,5 @@
 //dijkstra with queue
 //{steps,num}
-
-package graph;
 import java.util.*;
 class Pair{
   int steps,node;

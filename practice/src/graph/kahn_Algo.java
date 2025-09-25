@@ -1,6 +1,4 @@
 //Topological sort wala kaam hi h bs BFS ka use krti h
-
-package graph;
 import java.util.*;
 public class kahn_Algo {
   static int[] topoSort(int V,List<List<Integer>> adj){

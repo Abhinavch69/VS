@@ -2,7 +2,7 @@
 //name does not matter neither does the order
 //disJoint is being used
 
-package graph;
+
 import java.util.*;
 public class accountMerge {
   static List<List<String>> account(List<List<String>> details){

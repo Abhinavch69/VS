@@ -1,4 +1,3 @@
-package graph;
 import java.util.*;
 public class courseSchedule {
   public boolean isPossible(int V,int[][] prerequisites){

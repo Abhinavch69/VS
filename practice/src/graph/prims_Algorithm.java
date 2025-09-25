@@ -1,7 +1,5 @@
 //use of PQ
 //intuition = GREEDY
-
-package graph;
 import java.util.*;
 class Pair{
   int node;

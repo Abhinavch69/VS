@@ -1,4 +1,3 @@
-package graph;
 import java.util.*;
 public class wordLadder2 {
   public List<List<String>> findSequences(String startWord,String targetWord,String[] wordList){

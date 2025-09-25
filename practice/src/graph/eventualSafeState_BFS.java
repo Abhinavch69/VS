@@ -1,4 +1,3 @@
-package graph;
 import java.util.*;
 public class eventualSafeState_BFS {
   List<Integer> eventualSafeState(int V,List<List<Integer>> adj){

@@ -3,8 +3,6 @@
 
 //can go through 1 and not through 0
 //move in 4 directions
-
-package graph;
 import java.util.*;
 class tuple{
   int first,second,third;

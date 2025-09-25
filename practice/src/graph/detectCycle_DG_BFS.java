@@ -1,6 +1,4 @@
 //Uses kahns algorithm
-
-package graph;
 import java.util.*;
 public class detectCycle_DG_BFS {
   public boolean isCyclic(int V,List<List<Integer>> adj){

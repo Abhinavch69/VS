@@ -6,8 +6,6 @@
 //1. find ultimate parent of u and v(pu and pv respectively)
 //2. find rank of pu and pv
 //3. connect smaller rank to larger rank always
-
-package graph;
 import java.util.*;
 public class disjoint_Set {
   List<Integer> rank=new ArrayList<>();

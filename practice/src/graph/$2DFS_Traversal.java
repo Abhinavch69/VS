@@ -1,6 +1,5 @@
-package graph;
 import java.util.*;
-public class DFS_Traversal {
+public class $2DFS_Traversal {
   public static void dfs(int node, boolean vis[], List<List<Integer>> adj, List<Integer> ls){
     vis[node]=true;
     ls.add(node);

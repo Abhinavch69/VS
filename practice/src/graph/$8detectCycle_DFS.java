@@ -1,7 +1,6 @@
-package graph;
 import java.util.*;
 
-public class detectCycle_DFS {
+public class $8detectCycle_DFS {
 
   public boolean checkForCycle(int node,int parent,List<List<Integer>> adj,boolean[] vis){
     vis[node]=true;

@@ -1,6 +1,5 @@
-package graph;
 import java.util.*;
-public class BFS_Traversal {
+public class $1BFS_Traversal {
   public ArrayList<Integer> bfsOfGraph(int V,ArrayList<ArrayList<Integer>> adj){
     ArrayList<Integer> bfs=new ArrayList<>();
     boolean vis[]=new boolean[V];

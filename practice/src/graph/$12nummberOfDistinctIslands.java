@@ -1,12 +1,10 @@
 //DFS
-
-package graph;
 import java.util.*;
 
 
 
 
-public class nummberOfDistinctIslands {
+public class $12nummberOfDistinctIslands {
   private void dfs(int row,int col,int[][] vis,int[][] grid,List<String> vec, int row0,int col0){
     vis[row][col]=1;
     vec.add(toString(row-row0,col-col0));

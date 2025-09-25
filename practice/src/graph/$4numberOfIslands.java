@@ -1,6 +1,4 @@
 //In this quesion we can move in 8 directions
-
-package graph;
 import java.util.*;
 
 class Pair{
@@ -11,7 +9,7 @@ class Pair{
     this.second=second;
   }
 }
-class numberOfIslands {
+class $4numberOfIslands {
 
   public static void bfs(int ro,int co, int[][] vis, char[][]grid){
     vis[ro][co]=1;

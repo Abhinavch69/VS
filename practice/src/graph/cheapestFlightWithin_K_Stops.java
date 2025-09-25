@@ -1,7 +1,6 @@
 //can make upto k stops excluding source and destination
 //dijkstra but no need of PQ
 // {stops,node,dist}
-package graph;
 import java.util.*;
 
 import arrays.arraylist;

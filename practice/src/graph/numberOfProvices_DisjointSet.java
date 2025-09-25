@@ -1,6 +1,4 @@
 //use of dijoint set
-
-package graph;
 import java.util.*;
 public class numberOfProvices_DisjointSet {
     static int numProvinces(List<List<Integer>> adj,int V){

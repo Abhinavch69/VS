@@ -1,7 +1,6 @@
 //Always happends on Directed Acyclic Graph
 //DFS
 //jiska dfs complete hojaye usse stack m push krdo
-package graph;
 import java.util.*;
 public class topologicalSorting {
   private static void dfs(int node, int vis[], Stack<Integer> st,List<List<Integer>> adj){

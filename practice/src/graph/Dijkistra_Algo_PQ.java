@@ -1,6 +1,5 @@
 //BFS and Priority Queue(min heap)
 //TC - E log V
-package graph;
 import java.util.*;
 class Pair{
   int distance;
