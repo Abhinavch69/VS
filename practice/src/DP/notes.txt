@@ -1,0 +1,9 @@
+Shortcit tricks to solve Dp problems
+ 
+1. Try to represent the problem in terms of index
+
+2. Do all possible stuffs on that index according to the problem statement
+
+3. Sum of all stuffs -> count all ways
+   Minimum of all stuffs -> find Minimum
+   Maximum of all stuffs -> find Maximum
